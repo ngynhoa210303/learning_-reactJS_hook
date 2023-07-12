@@ -3,7 +3,8 @@ import "./App.css";
 // import B1 from "./components/B1_RenderDuLieuCuaBien/B1";
 import Nav from "./components/B2_SuDungNhieuComponentTrenCung1MH/Nav";
 // import Btn from "./components/B2_SuDungNhieuComponentTrenCung1MH/Btn";
-import UseStateDemo from "./components/B3_SuDungUseState/UseStateDemo";
+// import UseStateDemo from "./components/B3_SuDungUseState/UseStateDemo";
+import DemoCacKieuDLieu from "./components/B4_RenderNhieuDuLieu(Mang_Arr_Obj)/DemoCacKieuDLieu";
 
 const App = () => {
   return (
@@ -16,7 +17,9 @@ const App = () => {
         {/* 2. B2 */}
         {/* <Btn /> */}
         {/* 3. B3 */}
-        <UseStateDemo />
+        {/* <UseStateDemo /> */}
+        {/* 4. B4: useState với nhiều kiểu dữ liệu */}
+        <DemoCacKieuDLieu />
       </header>
     </div>
   );
