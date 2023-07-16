@@ -2,11 +2,13 @@ import logo from "./logo.svg";
 import "./App.css";
 // import B1 from "./components/B1_RenderDuLieuCuaBien/B1";
 import Nav from "./components/B2_SuDungNhieuComponentTrenCung1MH/Nav";
+
 // import Btn from "./components/B2_SuDungNhieuComponentTrenCung1MH/Btn";
 // import UseStateDemo from "./components/B3_SuDungUseState/UseStateDemo";
 // import DemoCacKieuDLieu from "./components/B4_RenderNhieuDuLieu(Mang_Arr_Obj)/DemoCacKieuDLieu";
-import PropsCon from "./components/B5_Props_CDList/PropsCon";
-
+// import PropsCon from "./components/B5_Props_CDList/PropsCon";
+// import PropsCon from "./components/B6_SuDungUseEffect/PropsCon";
+import FetchData from "./components/B7_UseEffectFetchDataAPI/FetchData";
 const App = () => {
   return (
     <div className="App">
@@ -23,7 +25,11 @@ const App = () => {
         {/* 4. B4: useState với nhiều kiểu dữ liệu */}
         {/* <DemoCacKieuDLieu /> */}
         {/* 5. B5: props quan hệ cha-con */}
-        <PropsCon />
+        {/* <PropsCon /> */}
+        {/* 6. B6: useEffect */}
+        {/* <PropsCon /> */}
+        {/* 7. B7 Call Api */}
+        <FetchData />
       </header>
     </div>
   );
